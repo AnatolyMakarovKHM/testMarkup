@@ -2,6 +2,11 @@
    Base styles
    ========================================================================== */
 /* stylelint-disable selector-no-universal  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -47,5 +52,7 @@ button,
 input[type="submit"] {
   cursor: pointer;
 }
+
+
 
 

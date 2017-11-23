@@ -69,3 +69,10 @@
   display: block;
 }
 
+@function rem($pixels) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @return $pixels / $main-font-size * 1rem;
+}
+

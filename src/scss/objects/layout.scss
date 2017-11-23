@@ -1,5 +1,5 @@
 $container-gutter: 15px;
-$container-width: calc(1200px + #{$container-gutter} * 2);
+$container-width: 1000px;//calc(1200px + #{$container-gutter} * 2);
 $col-gutter: $container-gutter;
 
 .clearfix {
@@ -10,6 +10,7 @@ $col-gutter: $container-gutter;
   @include clearfix;
 
   display: block;
+  position: relative;
   width: auto;
   max-width: $container-width;
   padding-left: $container-gutter;
@@ -26,9 +27,148 @@ $col-gutter: $container-gutter;
   margin-right: -$col-gutter;
 }
 
+[class*='col-'],
 .col {
   display: block;
   float: left;
   padding-right: $col-gutter;
   padding-left: $col-gutter;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.colored-line {
+  background: $c-orange;
+  color: $c-white;
+}
+
+.with-circle {
+  position: relative;
+  height: 533px;
+  font-weight: 300;
+
+  .container {
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+  .inner-container {
+    max-width: 45%;
+  }
+  &:before,
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+  }
+  &:before {
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    left:50%;
+  }
+  &:after {
+    @include sprite($circle-part);
+    left: 50%;
+    margin-left: -17px;
+  }
+  .title {
+    @extend .review-title;
+  }
+  .container .title {
+    margin-bottom: 48px;
+  }
+  p {
+    line-height: 1.2em;
+  }
+}
+
+.sep {
+  max-width: 383px;
+  height: 1px;
+  background: #d5d5d5;
+  margin: 28px auto;
+}
+
+.white-block {
+  border-radius: 10px;
+  background: #fff;
+  @extend .shadow;
+}
+
+.about-block {
+  padding: 33px 35px 23px;
+  margin:-99px 82px 65px;
+  font-size: rem(22px);
+  font-weight: 300;
+
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: rem(36px);
+    margin: 0;
+  }
+  .title + .sep {
+    margin-top: 12px;
+  }
+}
+
+[class*='icon-'] {
+  display: inline-block;
+}
+
+.icon-logo {
+  @include sprite($logo);
+}
+.icon-menu-closed {
+  @include sprite($menu-closed);
+}
+.icon-women-figure {
+  @include sprite($women-figure);
+}
+.icon-arw-left {
+  @include sprite($arw-left);
+}
+.icon-arw-right {
+  @include sprite($arw-right);
+}
+.icon-service01 {
+  @include sprite($service01);
+}
+.icon-service02 {
+  @include sprite($service02);
+}
+.icon-service03 {
+  @include sprite($service03);
+}
+
+.icon-facebook {
+  @include sprite($facebook);
+}
+.icon-twitter {
+  @include sprite($twitter);
+}
+.icon-pinterest {
+  @include sprite($pinterest);
+}
+.icon-instagram {
+  @include sprite($in);
 }

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="50" height="48" viewBox="0 0 50 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        filter: url(#color-overlay-1);
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 12px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: "OpenSans-Bold";
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fa6900"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <g>
+    <path d="M48.286,-0.000 C48.781,-0.000 49.190,0.161 49.514,0.484 C49.838,0.807 50.000,1.215 50.000,1.708 L50.000,37.466 C50.000,37.808 49.895,38.130 49.686,38.434 C49.476,38.738 49.219,38.947 48.914,39.060 L25.714,47.886 C25.562,47.962 25.352,48.000 25.086,48.000 C24.819,48.000 24.609,47.962 24.457,47.886 L1.143,39.060 C0.800,38.947 0.524,38.738 0.314,38.434 C0.105,38.130 0.000,37.808 0.000,37.466 L0.000,1.708 C0.000,1.215 0.171,0.807 0.514,0.484 C0.857,0.161 1.257,-0.000 1.714,-0.000 L48.286,-0.000 L48.286,-0.000 Z" class="cls-1"/>
+    <text transform="translate(9 41) scale(4.67 4.71)" class="cls-2"><tspan class="cls-3">+</tspan></text>
+  </g>
+</svg>

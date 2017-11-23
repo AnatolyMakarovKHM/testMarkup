@@ -1,0 +1,13 @@
+nav {
+  position: absolute;
+  right: 25px;
+  top: 28px;
+
+  .menu-btn:hover {
+    opacity: .8;
+  }
+}
+
+#main-menu {
+  display: none;
+}

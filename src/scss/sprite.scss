@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arw-left-name: 'arw-left';
+$arw-left-x: 225px;
+$arw-left-y: 207px;
+$arw-left-offset-x: -225px;
+$arw-left-offset-y: -207px;
+$arw-left-width: 30px;
+$arw-left-height: 30px;
+$arw-left-total-width: 288px;
+$arw-left-total-height: 532px;
+$arw-left-image: '../img/sprite.png';
+$arw-left: (225px, 207px, -225px, -207px, 30px, 30px, 288px, 532px, '../img/sprite.png', 'arw-left', );
+$arw-right-name: 'arw-right';
+$arw-right-x: 195px;
+$arw-right-y: 207px;
+$arw-right-offset-x: -195px;
+$arw-right-offset-y: -207px;
+$arw-right-width: 30px;
+$arw-right-height: 30px;
+$arw-right-total-width: 288px;
+$arw-right-total-height: 532px;
+$arw-right-image: '../img/sprite.png';
+$arw-right: (195px, 207px, -195px, -207px, 30px, 30px, 288px, 532px, '../img/sprite.png', 'arw-right', );
+$circle-part-name: 'circle-part';
+$circle-part-x: 0px;
+$circle-part-y: 0px;
+$circle-part-offset-x: 0px;
+$circle-part-offset-y: 0px;
+$circle-part-width: 106px;
+$circle-part-height: 532px;
+$circle-part-total-width: 288px;
+$circle-part-total-height: 532px;
+$circle-part-image: '../img/sprite.png';
+$circle-part: (0px, 0px, 0px, 0px, 106px, 532px, 288px, 532px, '../img/sprite.png', 'circle-part', );
+$facebook-name: 'facebook';
+$facebook-x: 195px;
+$facebook-y: 259px;
+$facebook-offset-x: -195px;
+$facebook-offset-y: -259px;
+$facebook-width: 11px;
+$facebook-height: 22px;
+$facebook-total-width: 288px;
+$facebook-total-height: 532px;
+$facebook-image: '../img/sprite.png';
+$facebook: (195px, 259px, -195px, -259px, 11px, 22px, 288px, 532px, '../img/sprite.png', 'facebook', );
+$in-name: 'in';
+$in-x: 255px;
+$in-y: 207px;
+$in-offset-x: -255px;
+$in-offset-y: -207px;
+$in-width: 22px;
+$in-height: 21px;
+$in-total-width: 288px;
+$in-total-height: 532px;
+$in-image: '../img/sprite.png';
+$in: (255px, 207px, -255px, -207px, 22px, 21px, 288px, 532px, '../img/sprite.png', 'in', );
+$logo-name: 'logo';
+$logo-x: 195px;
+$logo-y: 159px;
+$logo-offset-x: -195px;
+$logo-offset-y: -159px;
+$logo-width: 50px;
+$logo-height: 48px;
+$logo-total-width: 288px;
+$logo-total-height: 532px;
+$logo-image: '../img/sprite.png';
+$logo: (195px, 159px, -195px, -159px, 50px, 48px, 288px, 532px, '../img/sprite.png', 'logo', );
+$menu-closed-name: 'menu-closed';
+$menu-closed-x: 245px;
+$menu-closed-y: 159px;
+$menu-closed-offset-x: -245px;
+$menu-closed-offset-y: -159px;
+$menu-closed-width: 41px;
+$menu-closed-height: 41px;
+$menu-closed-total-width: 288px;
+$menu-closed-total-height: 532px;
+$menu-closed-image: '../img/sprite.png';
+$menu-closed: (245px, 159px, -245px, -159px, 41px, 41px, 288px, 532px, '../img/sprite.png', 'menu-closed', );
+$pinterest-name: 'pinterest';
+$pinterest-x: 195px;
+$pinterest-y: 237px;
+$pinterest-offset-x: -195px;
+$pinterest-offset-y: -237px;
+$pinterest-width: 17px;
+$pinterest-height: 22px;
+$pinterest-total-width: 288px;
+$pinterest-total-height: 532px;
+$pinterest-image: '../img/sprite.png';
+$pinterest: (195px, 237px, -195px, -237px, 17px, 22px, 288px, 532px, '../img/sprite.png', 'pinterest', );
+$service01-name: 'service01';
+$service01-x: 195px;
+$service01-y: 0px;
+$service01-offset-x: -195px;
+$service01-offset-y: 0px;
+$service01-width: 93px;
+$service01-height: 82px;
+$service01-total-width: 288px;
+$service01-total-height: 532px;
+$service01-image: '../img/sprite.png';
+$service01: (195px, 0px, -195px, 0px, 93px, 82px, 288px, 532px, '../img/sprite.png', 'service01', );
+$service02-name: 'service02';
+$service02-x: 195px;
+$service02-y: 82px;
+$service02-offset-x: -195px;
+$service02-offset-y: -82px;
+$service02-width: 93px;
+$service02-height: 77px;
+$service02-total-width: 288px;
+$service02-total-height: 532px;
+$service02-image: '../img/sprite.png';
+$service02: (195px, 82px, -195px, -82px, 93px, 77px, 288px, 532px, '../img/sprite.png', 'service02', );
+$service03-name: 'service03';
+$service03-x: 106px;
+$service03-y: 92px;
+$service03-offset-x: -106px;
+$service03-offset-y: -92px;
+$service03-width: 83px;
+$service03-height: 93px;
+$service03-total-width: 288px;
+$service03-total-height: 532px;
+$service03-image: '../img/sprite.png';
+$service03: (106px, 92px, -106px, -92px, 83px, 93px, 288px, 532px, '../img/sprite.png', 'service03', );
+$twitter-name: 'twitter';
+$twitter-x: 212px;
+$twitter-y: 237px;
+$twitter-offset-x: -212px;
+$twitter-offset-y: -237px;
+$twitter-width: 21px;
+$twitter-height: 17px;
+$twitter-total-width: 288px;
+$twitter-total-height: 532px;
+$twitter-image: '../img/sprite.png';
+$twitter: (212px, 237px, -212px, -237px, 21px, 17px, 288px, 532px, '../img/sprite.png', 'twitter', );
+$women-figure-name: 'women-figure';
+$women-figure-x: 106px;
+$women-figure-y: 0px;
+$women-figure-offset-x: -106px;
+$women-figure-offset-y: 0px;
+$women-figure-width: 89px;
+$women-figure-height: 92px;
+$women-figure-total-width: 288px;
+$women-figure-total-height: 532px;
+$women-figure-image: '../img/sprite.png';
+$women-figure: (106px, 0px, -106px, 0px, 89px, 92px, 288px, 532px, '../img/sprite.png', 'women-figure', );
+$spritesheet-width: 288px;
+$spritesheet-height: 532px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($arw-left, $arw-right, $circle-part, $facebook, $in, $logo, $menu-closed, $pinterest, $service01, $service02, $service03, $twitter, $women-figure, );
+$spritesheet: (288px, 532px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

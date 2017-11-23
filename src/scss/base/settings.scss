@@ -1,15 +1,20 @@
 /* Colors */
-$c-white: #fff;
+$c-white: #f1f1f1;
 $c-black: #000;
+$c-orange: #fa6900;
+$c-blue: #69d2e7;
+
+$radius: 9px;
+$boxshadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 
 /* Fonts */
 $f-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 /* Base variables */
-$main-font: $f-sans-serif;
-$main-font-size: 14px;
-$main-line-height: 1.5;
-$heading-font: $f-sans-serif;
+$main-font: 'Open Sans', sans-serif;
+$main-font-size: 16px;
+$main-line-height: 1.6;
+$heading-font: 'Open Sans', sans-serif;;
 $heading-line-height: 1.1;
 $main-bg: $c-white;
 $main-text-color: $c-black;

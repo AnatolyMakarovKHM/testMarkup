@@ -345,9 +345,14 @@ gulp.task('scripts:lint', () => {
 
 // Markup
 gulp.task('markup', () => {
-  gulp.src(src + '/pug/*.pug')
+/*
+  gulp.src(src + '/pug/!*.pug')
     .pipe($.plumber())
     .pipe($.pug())
+    .pipe(gulp.dest(dist))
+    .pipe(reload({stream:true}));
+*/
+  gulp.src(src + '/*.html')
     .pipe(gulp.dest(dist))
     .pipe(reload({stream:true}));
 });
@@ -378,7 +383,7 @@ gulp.task('watch', ['default'], () => {
   gulp.watch([src + '/' + stylesType + '/**/*' + stylesExtension], [stylesType, reload]);
   gulp.watch([src + '/js/**/*.js'], ['scripts', reload]);
   gulp.watch([src + '/img/**/*'], ['images', reload]);
-  gulp.watch([src + '/pug/**/*'], ['markup', reload]);
+  gulp.watch([src + '/**/*.html'], ['markup', reload]);
 });
 
 // Build and serve the output from the dist build
@@ -391,5 +396,5 @@ gulp.task('serve', ['default'], () => {
   gulp.watch([src + '/' + stylesType + '/**/*' + stylesExtension], [stylesType, reload]);
   gulp.watch([src + '/js/**/*.js'], ['scripts', reload]);
   gulp.watch([src + '/img/**/*'], ['images', reload]);
-  gulp.watch([src + '/pug/**/*'], ['markup', reload]);
+  gulp.watch([src + '/**/*,html'], ['markup', reload]);
 });

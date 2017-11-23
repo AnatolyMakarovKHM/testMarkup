@@ -1,0 +1,30 @@
+#header {
+  border-top:5px solid $c-orange;
+  background: $c-blue;
+  color: $c-white;
+
+  .container {
+    height: 465px;
+  }
+  .logo {
+    position: absolute;
+    left: 15px;
+    top: 35px;
+  }
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  @include absolute-center;
+  font-size: rem(83px);
+  line-height: 1em;
+  margin: 0;
+
+  span {
+    display: block;
+    font-size: rem(31px);
+    line-height:1.1em;
+  }
+}
